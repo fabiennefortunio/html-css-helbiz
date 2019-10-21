@@ -24,7 +24,7 @@
 .column {
     float: left;
     padding: 0 15px;
-    border: 1px solid black;
+    /**border: 1px solid black;**/
     height: 500px;
 }
 
@@ -152,7 +152,7 @@ header {
 }
 
 .product {
-    background-color: lightgrey;
+    background-color: #fafafa;
     padding: 10px;
     height: 500px;
 }
@@ -160,26 +160,37 @@ header {
 .product img {
     height: 360px;
     transform: translateX(250px);
-    padding-top: 10%;
+    margin: 80px 0;
+
 
 }
 .banner {
     height:
 }
 
+
+
 #third {
+    background-size: cover;
     height: 500px;
     background-image: url("https://helbiz.com/asset/pages/newhome/images/HelbizBanner.jpg");
 }
 
+ #third map {
+
+    background-image: url("https://img.utdstc.com/screen/13/google-maps-001.png:m");
+}
+
+
 #fourth {
    position: relative;
 }
+
 .iphone {
    margin: 10px auto;
    display:block;
-   height: 500px;
-   width: 300px;
+   height: 630px;
+   width: 390px;
    position: absolute;
    margin-left: 42%;
    margin-top: 13%;
