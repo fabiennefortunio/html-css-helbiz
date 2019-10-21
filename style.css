@@ -159,6 +159,9 @@ header {
 
 .product img {
     height: 360px;
+    transform: translateX(250px);
+    padding-top: 10%;
+
 }
 .banner {
     height:
